@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" modified="2024-07-04T19:12:13.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="S_CXybm1xzjJYZ7ZyIe_" version="24.6.4" type="device">
+  <diagram name="Page-1" id="oRRvNaRMQy4yNE8ccvkb">
+    <mxGraphModel dx="2033" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IxT7fpLdftMiR9ghW2BM-2" target="IxT7fpLdftMiR9ghW2BM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-2" value="EVALUATION DE LA MENACE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="42" y="140" width="744" height="340" as="geometry">
+            <mxRectangle x="42" y="140" width="210" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-3" value="- Une seule attaque ou plusieurs ?&lt;br&gt;- Volumétrie" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-2">
+          <mxGeometry x="20" y="65" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-4" value="- Ping of Death&lt;br&gt;- SYN flood&lt;br&gt;- UDP flood&lt;br&gt;- HTTP flood&lt;br&gt;- &quot;&lt;strong&gt;Slowloris&quot;&lt;br&gt;- etc.&lt;br&gt;&lt;br&gt;&lt;/strong&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-2">
+          <mxGeometry x="38" y="160" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IxT7fpLdftMiR9ghW2BM-2" source="IxT7fpLdftMiR9ghW2BM-8" target="IxT7fpLdftMiR9ghW2BM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-8" value="- Service critique ?&lt;br&gt;- Impact pour l&#39;entreprise ?&lt;br&gt;- Serveur partagé ?" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-2">
+          <mxGeometry x="588" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-10" value="Identifier la méthode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-2">
+          <mxGeometry x="228" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IxT7fpLdftMiR9ghW2BM-2" source="IxT7fpLdftMiR9ghW2BM-4" target="IxT7fpLdftMiR9ghW2BM-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IxT7fpLdftMiR9ghW2BM-2" source="IxT7fpLdftMiR9ghW2BM-12" target="IxT7fpLdftMiR9ghW2BM-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-12" value="Identifier le(s) service(s) ciblés" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-2">
+          <mxGeometry x="408" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-15" value="Graphique du traffic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-2">
+          <mxGeometry x="228" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IxT7fpLdftMiR9ghW2BM-2" source="IxT7fpLdftMiR9ghW2BM-3" target="IxT7fpLdftMiR9ghW2BM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IxT7fpLdftMiR9ghW2BM-2" source="IxT7fpLdftMiR9ghW2BM-43" target="IxT7fpLdftMiR9ghW2BM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IxT7fpLdftMiR9ghW2BM-2" source="IxT7fpLdftMiR9ghW2BM-43" target="IxT7fpLdftMiR9ghW2BM-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-43" value="Identifier serveur cible" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-2">
+          <mxGeometry x="408" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-52" value="Exporter les traces" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-2">
+          <mxGeometry x="408" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-59" value="Identifier les vulnérabilités présentes sur le serveur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-2">
+          <mxGeometry x="588" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IxT7fpLdftMiR9ghW2BM-20" target="IxT7fpLdftMiR9ghW2BM-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-20" value="LEVE DE DOUTE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="748" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-21" value="Known issue ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-20">
+          <mxGeometry x="58" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-22" value="Cas précédent ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-20">
+          <mxGeometry x="214" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-23" value="Actions en&lt;br&gt;&amp;nbsp;cours&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-20">
+          <mxGeometry x="430" y="52.5" width="110" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IxT7fpLdftMiR9ghW2BM-20" source="IxT7fpLdftMiR9ghW2BM-41" target="IxT7fpLdftMiR9ghW2BM-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-41" value="- Période de solde,&lt;br&gt;- Test de montée en charge" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-20">
+          <mxGeometry x="590" y="65" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-25" value="ACTIONS / RECOMMANDATIONS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="748" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IxT7fpLdftMiR9ghW2BM-25" source="IxT7fpLdftMiR9ghW2BM-46" target="IxT7fpLdftMiR9ghW2BM-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-46" value="Avertir les fournisseurs de lien" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-25">
+          <mxGeometry x="22" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IxT7fpLdftMiR9ghW2BM-25" source="IxT7fpLdftMiR9ghW2BM-47" target="IxT7fpLdftMiR9ghW2BM-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-47" value="- Attention aux SaaS / IaaS avec coût&amp;nbsp; basé sur utilisation de la BP." style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-25">
+          <mxGeometry x="186" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-49" value="Activer les protection anti-DDoS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-25">
+          <mxGeometry x="22" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-54" value="Blocage des IP identifiées" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-25">
+          <mxGeometry x="350" y="62.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IxT7fpLdftMiR9ghW2BM-25" source="IxT7fpLdftMiR9ghW2BM-55" target="IxT7fpLdftMiR9ghW2BM-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-55" value="- Blocage sur FW (périmétrique et local)&lt;br&gt;- Ban de région ou plage IP ou IP&lt;br&gt;- Mettre en drop les paquets" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-25">
+          <mxGeometry x="520" y="35" width="180" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-37" value="Playbook réalisé par Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1000" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-38" value="Playbook réalisé par Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-39" value="Playbook réalisé par Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-40" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Denis de service&lt;/h1&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Une alerte de &quot;Déni de Service&quot; (Denial of Service - DoS) ou &quot;Déni de Service Distribué&quot; (Distributed Denial of Service - DDoS) est une notification critique générée par les systèmes de sécurité lorsqu&#39;ils détectent une tentative de saturer ou de rendre inaccessible un service en ligne, tel qu&#39;un site web ou une application, en submergeant le serveur cible de demandes malveillantes ou de trafic excessif.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="42" y="30" width="750" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

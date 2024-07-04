@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2024-07-04T15:54:15.928Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="lDozJjKEzmild49-GtED" version="24.6.4" type="device">
+  <diagram name="Page-1" id="Q5QhC-GBLelKQHbPcLl9">
+    <mxGraphModel dx="2033" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GRqY-QbD0LzicwTZuLJ--2" target="GRqY-QbD0LzicwTZuLJ--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--2" value="Identify target account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GRqY-QbD0LzicwTZuLJ--4" target="GRqY-QbD0LzicwTZuLJ--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--4" value="Identify the user&#39;s workstation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--5" value="Identifiy IP1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--6" value="Identifiy IP2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GRqY-QbD0LzicwTZuLJ--14" target="GRqY-QbD0LzicwTZuLJ--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GRqY-QbD0LzicwTZuLJ--10" target="GRqY-QbD0LzicwTZuLJ--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GRqY-QbD0LzicwTZuLJ--10" target="GRqY-QbD0LzicwTZuLJ--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--10" value="&lt;div&gt;- Geolocation&lt;/div&gt;&lt;div&gt;- Organization&lt;/div&gt;&lt;div&gt;- TOR, VPN, Proxy?&lt;/div&gt;&lt;div&gt;- Reputation (Crowdsec, Talos, VirusTotal, Tweetfeed, etc.)&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="190" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--11" value="Identify workstation vulnerabilities" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GRqY-QbD0LzicwTZuLJ--13" target="GRqY-QbD0LzicwTZuLJ--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--13" value="THREAT ASSESSMENT" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="42" y="140" width="744" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--14" value="&lt;div&gt;- VIP account?&lt;/div&gt;&lt;div&gt;- Privilege account?&lt;/div&gt;&lt;div&gt;- Service account?&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="GRqY-QbD0LzicwTZuLJ--13">
+          <mxGeometry x="38" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--15" value="Vulnerabilities that may have been exploited to obtain login information?" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="GRqY-QbD0LzicwTZuLJ--13">
+          <mxGeometry x="20" y="227.5" width="138" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GRqY-QbD0LzicwTZuLJ--17" target="GRqY-QbD0LzicwTZuLJ--22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--17" value="DOUBT RESOLUTION" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="748" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--18" value="Known issue ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="GRqY-QbD0LzicwTZuLJ--17">
+          <mxGeometry x="58" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--19" value="Case history?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="GRqY-QbD0LzicwTZuLJ--17">
+          <mxGeometry x="214" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--20" value="Traveling&lt;br&gt;&amp;nbsp;staff?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="GRqY-QbD0LzicwTZuLJ--17">
+          <mxGeometry x="373.5" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--21" value="Session&lt;br&gt;&amp;nbsp;kept open?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="GRqY-QbD0LzicwTZuLJ--17">
+          <mxGeometry x="540" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--22" value="ACTIONS / RECOMMENDATIONS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="780" width="748" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--23" value="Isolation of the workstation" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="GRqY-QbD0LzicwTZuLJ--22">
+          <mxGeometry x="44" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--24" value="Account locking" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="GRqY-QbD0LzicwTZuLJ--22">
+          <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GRqY-QbD0LzicwTZuLJ--22" source="GRqY-QbD0LzicwTZuLJ--26" target="GRqY-QbD0LzicwTZuLJ--31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--26" value="Add IP allow/block list" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="GRqY-QbD0LzicwTZuLJ--22">
+          <mxGeometry x="410" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GRqY-QbD0LzicwTZuLJ--22" source="GRqY-QbD0LzicwTZuLJ--28" target="GRqY-QbD0LzicwTZuLJ--30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--28" value="Evidence extraction" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="GRqY-QbD0LzicwTZuLJ--22">
+          <mxGeometry x="220" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--29" value="Filing a complaint?" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="GRqY-QbD0LzicwTZuLJ--22">
+          <mxGeometry x="600" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--30" value="Log analysis" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="GRqY-QbD0LzicwTZuLJ--22">
+          <mxGeometry x="220" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GRqY-QbD0LzicwTZuLJ--22" source="GRqY-QbD0LzicwTZuLJ--31" target="GRqY-QbD0LzicwTZuLJ--32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--31" value="If&amp;nbsp; add to block list added: check whether accesses are attempted" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="GRqY-QbD0LzicwTZuLJ--22">
+          <mxGeometry x="400" y="140" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--32" value="Add MFA policy" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="GRqY-QbD0LzicwTZuLJ--22">
+          <mxGeometry x="600" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--33" value="Playbook created by Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1020" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--35" value="Playbook created by Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="740" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--36" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Impossible travel&lt;/h1&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;An &quot;impossible travel&quot; alert is a notification generated by a security system when it detects connections from geographically distant locations within a time frame that is too short for physical travel to be possible.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="42" y="30" width="750" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GRqY-QbD0LzicwTZuLJ--15" target="GRqY-QbD0LzicwTZuLJ--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRqY-QbD0LzicwTZuLJ--39" value="Playbook created by Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="42" y="490" width="350" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

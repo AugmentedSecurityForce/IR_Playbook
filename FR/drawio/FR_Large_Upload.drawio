@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" modified="2024-07-04T16:25:09.469Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="1irYK05WkZ9T6VJybETM" version="24.6.4" type="device">
+  <diagram name="Page-1" id="FpshQgLB-GsQDtI6Lsei">
+    <mxGraphModel dx="2033" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Waq7WpSJNQ5eqe7uvKCd-13" target="Waq7WpSJNQ5eqe7uvKCd-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-13" value="EVALUATION DE LA MENACE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="42" y="140" width="744" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-14" value="- Compte VIP ? &lt;br&gt;- A privilège ? &lt;br&gt;- Compte de service ?&lt;br&gt;- Compte habitué à ce type d&#39;alerte (ex: communication)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-13">
+          <mxGeometry x="20" y="40" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-15" value="Vulnérabilités pouvant avoir été exploitées pour compromettre le système" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-13">
+          <mxGeometry x="20" y="300" width="138" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-10" value="- Géolocalisation&lt;br&gt;- Organisation&lt;br&gt;- Service hébergé&lt;br&gt;- Réputation (Crowdsec, Talos, VirusTotal, Tweetfeed, etc.)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-13">
+          <mxGeometry x="568" y="140" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-5" value="Identifier destination" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-13">
+          <mxGeometry x="588" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Waq7WpSJNQ5eqe7uvKCd-13" source="Waq7WpSJNQ5eqe7uvKCd-10" target="Waq7WpSJNQ5eqe7uvKCd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-6" value="Identifier application utilisée pour le téléversement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-13">
+          <mxGeometry x="398" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-40" value="Si GW, identifier les postes ayant fait les requêtes" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-13">
+          <mxGeometry x="20" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-42" value="Volumétrie" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-13">
+          <mxGeometry x="398" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-11" value="Identifier les vulnérabilités du poste" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-13">
+          <mxGeometry x="228" y="322.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Waq7WpSJNQ5eqe7uvKCd-13" source="Waq7WpSJNQ5eqe7uvKCd-15" target="Waq7WpSJNQ5eqe7uvKCd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-4" value="Identifier le poste lié à cet utilisateur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-13">
+          <mxGeometry x="228" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Waq7WpSJNQ5eqe7uvKCd-13" source="Waq7WpSJNQ5eqe7uvKCd-4" target="Waq7WpSJNQ5eqe7uvKCd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Waq7WpSJNQ5eqe7uvKCd-13" source="Waq7WpSJNQ5eqe7uvKCd-40" target="Waq7WpSJNQ5eqe7uvKCd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-2" value="Identifier le compte&amp;nbsp; à l&#39;origine de l&#39;alerte" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-13">
+          <mxGeometry x="228" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Waq7WpSJNQ5eqe7uvKCd-13" source="Waq7WpSJNQ5eqe7uvKCd-2" target="Waq7WpSJNQ5eqe7uvKCd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Waq7WpSJNQ5eqe7uvKCd-13" source="Waq7WpSJNQ5eqe7uvKCd-14" target="Waq7WpSJNQ5eqe7uvKCd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Waq7WpSJNQ5eqe7uvKCd-17" target="Waq7WpSJNQ5eqe7uvKCd-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-17" value="LEVE DE DOUTE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="650" width="748" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-18" value="Known issue ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-17">
+          <mxGeometry x="58" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-19" value="Cas précédent ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-17">
+          <mxGeometry x="214" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-46" value="Fichier(s) &lt;br&gt;téléversés identifié(s)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-17">
+          <mxGeometry x="430" y="52.5" width="110" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-48" value="Confirmation utilisateur" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-17">
+          <mxGeometry x="590" y="52.5" width="110" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-50" value="Contexte de &lt;br&gt;travail" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-17">
+          <mxGeometry x="49" y="200" width="110" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-22" value="ACTIONS / RECOMMANDATIONS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1100" width="748" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-23" value="Isolation du poste" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-22">
+          <mxGeometry x="44" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-24" value="Blocage du compte" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-22">
+          <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Waq7WpSJNQ5eqe7uvKCd-22" source="Waq7WpSJNQ5eqe7uvKCd-26" target="Waq7WpSJNQ5eqe7uvKCd-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-26" value="Ajout de l&#39;IP block list" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-22">
+          <mxGeometry x="410" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Waq7WpSJNQ5eqe7uvKCd-22" source="Waq7WpSJNQ5eqe7uvKCd-28" target="Waq7WpSJNQ5eqe7uvKCd-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-28" value="Extraction des preuves" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-22">
+          <mxGeometry x="220" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-29" value="Dépôt de plainte ?" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-22">
+          <mxGeometry x="600" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-30" value="Analyse des journaux" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-22">
+          <mxGeometry x="220" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-31" value="Contrôler accès précédents" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Waq7WpSJNQ5eqe7uvKCd-22">
+          <mxGeometry x="410" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-33" value="Playbook réalisé par Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1340" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-34" value="Playbook réalisé par Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="610" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-35" value="Playbook réalisé par Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1060" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Waq7WpSJNQ5eqe7uvKCd-36" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Large Upload&lt;/h1&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Une alerte &quot;large upload&quot; (téléversement important) est une notification générée par un système de sécurité lorsqu&#39;il détecte un volume de données exceptionnellement élevé téléversé depuis un dispositif ou un compte utilisateur vers une destination externe.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="42" y="30" width="750" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

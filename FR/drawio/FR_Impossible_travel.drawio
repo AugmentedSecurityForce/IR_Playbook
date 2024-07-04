@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" modified="2024-07-04T15:44:04.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="MrvcggS7dA_5XQ2zvuXJ" version="24.4.13" type="device">
+  <diagram name="Page-1" id="CjLOe4V9ebsm1JbyDw8e">
+    <mxGraphModel dx="2033" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uL-nkyylZmNSroSCcU0p-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uL-nkyylZmNSroSCcU0p-2" target="uL-nkyylZmNSroSCcU0p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-2" value="Identifier le compte ciblé" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uL-nkyylZmNSroSCcU0p-3" target="uL-nkyylZmNSroSCcU0p-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-3" value="Identifier le poste lié à cet utilisateur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-4" value="Identifier IP1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-5" value="Identifier IP2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uL-nkyylZmNSroSCcU0p-6" target="uL-nkyylZmNSroSCcU0p-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uL-nkyylZmNSroSCcU0p-7" target="uL-nkyylZmNSroSCcU0p-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uL-nkyylZmNSroSCcU0p-7" target="uL-nkyylZmNSroSCcU0p-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-7" value="- Géolocalisation&lt;br&gt;- Organisation&lt;br&gt;- TOR, VPN, Proxy ?&lt;br&gt;- Réputation (Crowdsec, Talos, VirusTotal, Tweetfeed, etc.)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="190" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-8" value="Identifier les vulnérabilités du poste" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uL-nkyylZmNSroSCcU0p-10" target="uL-nkyylZmNSroSCcU0p-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-10" value="EVALUATION DE LA MENACE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="42" y="140" width="744" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-6" value="- Compte VIP ? &lt;br&gt;- A privilège ? &lt;br&gt;- Compte de service ?" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="uL-nkyylZmNSroSCcU0p-10">
+          <mxGeometry x="38" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-41" value="Vulnérabilités pouvant avoir été exploitées pour obtenir les informations de connexion ?" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="uL-nkyylZmNSroSCcU0p-10">
+          <mxGeometry x="20" y="227.5" width="138" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uL-nkyylZmNSroSCcU0p-15" target="uL-nkyylZmNSroSCcU0p-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-15" value="LEVE DE DOUTE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="748" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-16" value="Known issue ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="uL-nkyylZmNSroSCcU0p-15">
+          <mxGeometry x="58" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-18" value="Cas précédent ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="uL-nkyylZmNSroSCcU0p-15">
+          <mxGeometry x="214" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-19" value="Personnel en voyage ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="uL-nkyylZmNSroSCcU0p-15">
+          <mxGeometry x="373.5" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-20" value="Session restée ouverte ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="uL-nkyylZmNSroSCcU0p-15">
+          <mxGeometry x="540" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-21" value="ACTIONS / RECOMMANDATIONS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="780" width="748" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-27" value="Isolation du poste" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="uL-nkyylZmNSroSCcU0p-21">
+          <mxGeometry x="44" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-28" value="Blocage du compte" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="uL-nkyylZmNSroSCcU0p-21">
+          <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uL-nkyylZmNSroSCcU0p-21" source="uL-nkyylZmNSroSCcU0p-29" target="uL-nkyylZmNSroSCcU0p-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-29" value="Ajout de l&#39;IP allow/block list" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="uL-nkyylZmNSroSCcU0p-21">
+          <mxGeometry x="410" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uL-nkyylZmNSroSCcU0p-21" source="uL-nkyylZmNSroSCcU0p-30" target="uL-nkyylZmNSroSCcU0p-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-30" value="Extraction des preuves" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="uL-nkyylZmNSroSCcU0p-21">
+          <mxGeometry x="220" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-31" value="Dépôt de plainte ?" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="uL-nkyylZmNSroSCcU0p-21">
+          <mxGeometry x="600" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-32" value="Analyse des journaux" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="uL-nkyylZmNSroSCcU0p-21">
+          <mxGeometry x="220" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-34" value="Si ajout block list : contrôler si des accès sont tentés" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="uL-nkyylZmNSroSCcU0p-21">
+          <mxGeometry x="410" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-36" value="Ajout MFA" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="uL-nkyylZmNSroSCcU0p-21">
+          <mxGeometry x="600" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-37" value="Playbook réalisé par Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1020" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-38" value="Playbook réalisé par Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-39" value="Playbook réalisé par Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="740" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-40" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Impossible travel&lt;/h1&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Une alerte &quot;impossible travel&quot; (déplacement impossible) est une notification générée par un système de sécurité informatique lorsqu&#39;il détecte des connexions à partir de localisations géographiques très éloignées dans un laps de temps trop court pour qu&#39;un voyage physique soit possible&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="42" y="30" width="750" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uL-nkyylZmNSroSCcU0p-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uL-nkyylZmNSroSCcU0p-41" target="uL-nkyylZmNSroSCcU0p-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

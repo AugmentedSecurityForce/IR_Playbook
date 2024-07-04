@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" modified="2024-07-04T16:25:53.964Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="o4UfK_65KWvpvVLK8VUQ" version="24.6.4" type="device">
+  <diagram name="Page-1" id="RSNQRalIN0FuEi7BWGVs">
+    <mxGraphModel dx="2033" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u0QtfZF3cgKS4Owp7ekd-40" target="u0QtfZF3cgKS4Owp7ekd-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-40" value="THREAT ASSESSMENT" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="42" y="140" width="744" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-41" value="&lt;div&gt;- VIP account?&lt;/div&gt;&lt;div&gt;- Privilege account?&lt;/div&gt;&lt;div&gt;- Service account?&lt;/div&gt;&lt;div&gt;- Account used to this type of alert (e.g. communication)&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-40">
+          <mxGeometry x="20" y="40" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-42" value="Vulnerabilities that may have been exploited to compromise the system" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-40">
+          <mxGeometry x="20" y="300" width="138" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-43" value="&lt;div&gt;- Geolocation&lt;/div&gt;&lt;div&gt;- Organization&lt;/div&gt;&lt;div&gt;- Hosted service&lt;/div&gt;&lt;div&gt;- Reputation (Crowdsec, Talos, VirusTotal, Tweetfeed, etc.)&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-40">
+          <mxGeometry x="568" y="140" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-44" value="Identify destination" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-40">
+          <mxGeometry x="588" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="u0QtfZF3cgKS4Owp7ekd-40" source="u0QtfZF3cgKS4Owp7ekd-43" target="u0QtfZF3cgKS4Owp7ekd-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-46" value="Identify application used for upload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-40">
+          <mxGeometry x="398" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-47" value="If GW, identify the stations that made the requests" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-40">
+          <mxGeometry x="20" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-48" value="Volumetry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-40">
+          <mxGeometry x="398" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-49" value="Identify workstation vulnerabilities" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-40">
+          <mxGeometry x="228" y="322.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="u0QtfZF3cgKS4Owp7ekd-40" source="u0QtfZF3cgKS4Owp7ekd-42" target="u0QtfZF3cgKS4Owp7ekd-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-51" value="Identify the workstation linked to this user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-40">
+          <mxGeometry x="228" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u0QtfZF3cgKS4Owp7ekd-40" source="u0QtfZF3cgKS4Owp7ekd-51" target="u0QtfZF3cgKS4Owp7ekd-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="u0QtfZF3cgKS4Owp7ekd-40" source="u0QtfZF3cgKS4Owp7ekd-47" target="u0QtfZF3cgKS4Owp7ekd-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-54" value="Identify the account behind the alert" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-40">
+          <mxGeometry x="228" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u0QtfZF3cgKS4Owp7ekd-40" source="u0QtfZF3cgKS4Owp7ekd-54" target="u0QtfZF3cgKS4Owp7ekd-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="u0QtfZF3cgKS4Owp7ekd-40" source="u0QtfZF3cgKS4Owp7ekd-41" target="u0QtfZF3cgKS4Owp7ekd-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u0QtfZF3cgKS4Owp7ekd-58" target="u0QtfZF3cgKS4Owp7ekd-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-58" value="DOUBT RESOLUTION" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="610" width="748" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-59" value="Known issue ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-58">
+          <mxGeometry x="58" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-60" value="Case history?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-58">
+          <mxGeometry x="214" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-61" value="Uploaded file(s) identified" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-58">
+          <mxGeometry x="430" y="52.5" width="110" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-62" value="User confirmation" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-58">
+          <mxGeometry x="590" y="52.5" width="110" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-63" value="work environment" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-58">
+          <mxGeometry x="49" y="200" width="110" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-64" value="ACTIONS / RECOMMENDATIONS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1050" width="748" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-65" value="Isolation of the workstation" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-64">
+          <mxGeometry x="44" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-66" value="Account locking" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-64">
+          <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u0QtfZF3cgKS4Owp7ekd-64" source="u0QtfZF3cgKS4Owp7ekd-68" target="u0QtfZF3cgKS4Owp7ekd-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-68" value="Add IP to block list" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-64">
+          <mxGeometry x="410" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u0QtfZF3cgKS4Owp7ekd-64" source="u0QtfZF3cgKS4Owp7ekd-70" target="u0QtfZF3cgKS4Owp7ekd-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-70" value="Evidence extraction" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-64">
+          <mxGeometry x="220" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-71" value="Filing a complaint?" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-64">
+          <mxGeometry x="600" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-72" value="Log analysis" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-64">
+          <mxGeometry x="220" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-73" value="Control previous access" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="u0QtfZF3cgKS4Owp7ekd-64">
+          <mxGeometry x="410" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-74" value="Playbook created by Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1290" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-75" value="Playbook created by Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="570" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-76" value="Playbook created by Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1010" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u0QtfZF3cgKS4Owp7ekd-77" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Large Upload&lt;/h1&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;A &#39;large upload&#39; alert is a notification generated by a security system when it detects an exceptionally high volume of data being uploaded from a device or user account to an external destination.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="42" y="30" width="750" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
