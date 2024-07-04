@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T19:12:13.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="S_CXybm1xzjJYZ7ZyIe_" version="24.6.4" type="device">
+<mxfile host="app.diagrams.net" modified="2024-07-04T19:53:19.312Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="y2hr0_rMMQSxzUcwgcw4" version="24.6.4" type="device">
   <diagram name="Page-1" id="oRRvNaRMQy4yNE8ccvkb">
     <mxGraphModel dx="2033" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,7 +12,7 @@
             <mxRectangle x="42" y="140" width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IxT7fpLdftMiR9ghW2BM-3" value="- Une seule attaque ou plusieurs ?&lt;br&gt;- Volumétrie" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-2">
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-3" value="- Une seule attaque ou plusieurs ?&lt;br&gt;- Volumétrie&lt;br&gt;- Source" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-2">
           <mxGeometry x="20" y="65" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IxT7fpLdftMiR9ghW2BM-4" value="- Ping of Death&lt;br&gt;- SYN flood&lt;br&gt;- UDP flood&lt;br&gt;- HTTP flood&lt;br&gt;- &quot;&lt;strong&gt;Slowloris&quot;&lt;br&gt;- etc.&lt;br&gt;&lt;br&gt;&lt;/strong&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-2">
@@ -102,7 +102,7 @@
         <mxCell id="IxT7fpLdftMiR9ghW2BM-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IxT7fpLdftMiR9ghW2BM-25" source="IxT7fpLdftMiR9ghW2BM-55" target="IxT7fpLdftMiR9ghW2BM-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IxT7fpLdftMiR9ghW2BM-55" value="- Blocage sur FW (périmétrique et local)&lt;br&gt;- Ban de région ou plage IP ou IP&lt;br&gt;- Mettre en drop les paquets" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-25">
+        <mxCell id="IxT7fpLdftMiR9ghW2BM-55" value="- Blocage sur FW (périmétrique et local)&lt;br&gt;- Ban de région ou plage IP ou IP&lt;br&gt;- Mettre en drop les paquets&lt;br&gt;- Contacter &quot;abuse&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="IxT7fpLdftMiR9ghW2BM-25">
           <mxGeometry x="520" y="35" width="180" height="115" as="geometry" />
         </mxCell>
         <mxCell id="IxT7fpLdftMiR9ghW2BM-37" value="Playbook réalisé par Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
