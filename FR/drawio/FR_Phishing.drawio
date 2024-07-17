@@ -1,0 +1,126 @@
+<mxfile host="Electron" modified="2024-07-17T07:16:27.928Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="UDjH8vZ-wrEDU6UeOVH_" version="24.6.4" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1674" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="uhZCZnf9X1_8hABlHnno-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uhZCZnf9X1_8hABlHnno-1" target="uhZCZnf9X1_8hABlHnno-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-1" value="EVALUATION DE LA MENACE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="42" y="140" width="744" height="340" as="geometry">
+            <mxRectangle x="42" y="140" width="210" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uhZCZnf9X1_8hABlHnno-1" source="uhZCZnf9X1_8hABlHnno-5" target="uhZCZnf9X1_8hABlHnno-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-5" value="- Règle de transfert&lt;br&gt;- Délégation" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-1">
+          <mxGeometry x="608" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-6" value="Contrôle PJ / code du mail" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-1">
+          <mxGeometry x="428" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-9" value="Rechercher les précédents" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-1">
+          <mxGeometry x="238" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uhZCZnf9X1_8hABlHnno-1" source="uhZCZnf9X1_8hABlHnno-10" target="uhZCZnf9X1_8hABlHnno-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-10" value="Récuperer le mail / entêtes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-1">
+          <mxGeometry x="44" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-14" value="Identifier les destinataires" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-1">
+          <mxGeometry x="608" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uhZCZnf9X1_8hABlHnno-1" source="uhZCZnf9X1_8hABlHnno-37" target="uhZCZnf9X1_8hABlHnno-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-37" value="- Nom affiché&lt;br&gt;- Adresse émetrice, domaine&lt;br&gt;- Répondre à,&lt;br&gt;- Objet du message&lt;br&gt;- Date d&#39;émission&lt;br&gt;- IP émétrice / DNS-Reverse&lt;br&gt;- Résumé du contenu&lt;br&gt;- Contrôle DKIM / DMARC / SPF" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-1">
+          <mxGeometry x="18" y="125" width="172" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uhZCZnf9X1_8hABlHnno-1" source="uhZCZnf9X1_8hABlHnno-39" target="uhZCZnf9X1_8hABlHnno-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uhZCZnf9X1_8hABlHnno-1" source="uhZCZnf9X1_8hABlHnno-39" target="uhZCZnf9X1_8hABlHnno-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-39" value="- Analyse des PJ (contenu, format, etc.)&lt;br&gt;- Recherche de code malveillant dans le mail&lt;br&gt;- Analyse des URL" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-1">
+          <mxGeometry x="394" y="140" width="188" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-41" value="Contrôle des connexions faites vers ces URL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-1">
+          <mxGeometry x="238" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uhZCZnf9X1_8hABlHnno-1" source="uhZCZnf9X1_8hABlHnno-46" target="uhZCZnf9X1_8hABlHnno-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-46" value="mail déjà reçu par ce domaine ?" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-1">
+          <mxGeometry x="238" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uhZCZnf9X1_8hABlHnno-18" target="uhZCZnf9X1_8hABlHnno-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-18" value="LEVE DE DOUTE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="530" width="748" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-19" value="Known issue ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-18">
+          <mxGeometry x="58" y="60" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-21" value="Actions en&lt;br&gt;&amp;nbsp;cours&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-18">
+          <mxGeometry x="430" y="52.5" width="110" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uhZCZnf9X1_8hABlHnno-18" source="uhZCZnf9X1_8hABlHnno-23" target="uhZCZnf9X1_8hABlHnno-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-23" value="Exercice de phishing ?" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-18">
+          <mxGeometry x="590" y="65" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-24" value="ACTIONS / RECOMMANDATIONS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="760" width="748" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uhZCZnf9X1_8hABlHnno-24" source="uhZCZnf9X1_8hABlHnno-49" target="uhZCZnf9X1_8hABlHnno-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uhZCZnf9X1_8hABlHnno-24" source="uhZCZnf9X1_8hABlHnno-49" target="uhZCZnf9X1_8hABlHnno-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-49" value="Isoler le poste" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-24">
+          <mxGeometry x="30" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-50" value="Désactiver les comptes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-24">
+          <mxGeometry x="180" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-59" value="Bloquer les URL / domaines" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-24">
+          <mxGeometry x="30" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-62" value="Communication interne" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-24">
+          <mxGeometry x="180" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-63" value="Rappatrier le mail des différentes BàL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-24">
+          <mxGeometry x="340" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uhZCZnf9X1_8hABlHnno-24" source="uhZCZnf9X1_8hABlHnno-64" target="uhZCZnf9X1_8hABlHnno-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-64" value="Bloquer expéditeur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-24">
+          <mxGeometry x="510" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-65" value="Bloquer domaine expéditeur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uhZCZnf9X1_8hABlHnno-24">
+          <mxGeometry x="510" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-33" value="Playbook réalisé par Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="1000" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-34" value="Playbook réalisé par Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="490" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-35" value="Playbook réalisé par Augmented Security Force - licence&amp;nbsp;CC0 1.0 UNIVERSAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="720" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uhZCZnf9X1_8hABlHnno-36" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Phishing&lt;/h1&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Une alerte de &quot;Phishing&quot; est une notification critique générée par les systèmes de sécurité lorsqu&#39;ils détectent une tentative d&#39;hameçonnage visant à tromper les utilisateurs pour qu&#39;ils divulguent des informations sensibles telles que des identifiants de connexion, des numéros de carte de crédit, ou d&#39;autres données personnelles.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="42" y="30" width="750" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
